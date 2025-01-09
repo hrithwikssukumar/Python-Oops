@@ -52,32 +52,31 @@ class Library:
 
 
 
-# Create a library
+
 my_library = Library("City Library")
 
-# Create some books
+
 book1 = Book("The Great Gatsby", "F. Scott Fitzgerald", 1925)
 book2 = Book("1984", "George Orwell", 1949)
 book3 = Book("To Kill a Mockingbird", "Harper Lee", 1960)
 
-# Add books to the library
+
 my_library.add_book(book1)
 my_library.add_book(book2)
 my_library.add_book(book3)
 
-# List all books
+
 my_library.list_books()
 
-# Borrow a book
+
 book_to_borrow = my_library.find_book("1984")
 if book_to_borrow:
     book_to_borrow.borrow_book()
 
-# Try to borrow the same book again
+
 book_to_borrow.borrow_book()
 
-# Return the book
+
 book_to_borrow.return_book()
 
-# List books again to see updated availability
 my_library.list_books()
