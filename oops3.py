@@ -25,10 +25,7 @@ class BankAccount:
         print(f"Account Holder: {self.account_holder}")
         print(f"Current Balance: ${self.balance:.2f}")
 
-
-
 account = BankAccount("123456789", "Ajay Yadav", 500.0)
-
 
 account.display_balance()
 account.deposit(200.0)
