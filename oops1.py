@@ -50,13 +50,11 @@ class Library:
         return None
 
 
-
-
 my_library = Library("City Library")
 
 
 book1 = Book("The Great Gatsby", "F. Scott Fitzgerald", 1925)
-book2 = Book("1984", "George Orwell", 1949)
+book2 = Book("Alchemist", "George Orwell", 1949)
 book3 = Book("To Kill a Mockingbird", "Harper Lee", 1960)
 
 
@@ -68,13 +66,12 @@ my_library.add_book(book3)
 my_library.list_books()
 
 
-book_to_borrow = my_library.find_book("1984")
+book_to_borrow = my_library.find_book("Alchemist")
 if book_to_borrow:
     book_to_borrow.borrow_book()
 
 
 book_to_borrow.borrow_book()
-
 
 book_to_borrow.return_book()
 
