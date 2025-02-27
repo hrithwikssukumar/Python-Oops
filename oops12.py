@@ -1,29 +1,21 @@
-#Inheritance 
 
 class Animal:
     def speak(self):
         raise NotImplementedError("Subclasses must implement this method")
 
-
 class Dog(Animal):
     def speak(self):
         return "Woof! Woof!"
-
 
 class Cat(Animal):
     def speak(self):
         return "Meow! Meow!"
 
 
-# Example usage
 animals = [Dog(), Cat()]
 
 for animal in animals:
     print(f"{animal.__class__.__name__}: {animal.speak()}")
-
-
-
-
 
 class Shape:
     def area(self):
@@ -47,10 +39,9 @@ class Triangle(Shape):
         return 0.5 * self.base * self.height
 
 
-# Example usage
 shapes = [
-    Square(4),   # Square with side 4
-    Triangle(5, 6)  # Triangle with base 5 and height 6
+    Square(4),  
+    Triangle(5, 6)  
 ]
 
 for shape in shapes:
@@ -82,7 +73,7 @@ class Manager(Employee):
         print(f"Number of Team Members: {self.num_team_members}")
 
 
-# Example usage
+
 employee = Employee("Hrithwik S Sukumar", "Software Engineer")
 manager = Manager("Prashant Kumar", "Project Manager", 10)
 

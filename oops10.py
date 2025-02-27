@@ -28,7 +28,6 @@ class Temperature:
 
 temp = Temperature(25)  
 
-
 print(f"Temperature in Celsius: {temp.celsius}°C")
 print(f"Temperature in Fahrenheit: {temp.fahrenheit}°F")
 

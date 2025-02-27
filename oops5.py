@@ -22,7 +22,6 @@ class Employee:
             self._salary = salary
 
 
-
 employee = Employee(101, 50000)
 
 
