@@ -1,5 +1,5 @@
 class Circle:
-    pi=3.14 #class object attribute
+    pi=3.14 
 
     def __init__(self,radius=7):
         self.radius = radius
