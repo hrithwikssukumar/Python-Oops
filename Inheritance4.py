@@ -10,10 +10,9 @@ class Child(Parent):
     def hobby(self):
         print("Hobby: Painting")
 
-# Creating an object of the Child class
+
 child = Child()
 
-# Demonstrating all three methods
-child.family_name()  # Method from Grandparent
-child.profession()   # Method from Parent
-child.hobby()        # Method from Child
+child.family_name()  
+child.profession()   
+child.hobby()        

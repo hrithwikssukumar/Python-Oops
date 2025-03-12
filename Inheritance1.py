@@ -17,13 +17,13 @@ class Male(Human):
     def work(self):
         print("I Can Work")
 
-# Create instances of the classes with heart=1
+
 man1 = Human()
 man1.heart = 1
 
 man2 = Male(1)
 
-# Call the methods
+
 man1.speak()
 man1.eat()
 man2.work()

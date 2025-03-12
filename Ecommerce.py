@@ -7,7 +7,6 @@ class User:
     def get_username(self):
         return self.__username
 
-
 class Product:
     def __init__(self, name, price):
         self.name = name
@@ -24,10 +23,8 @@ class DigitalProduct(Product):
     def get_details(self):  
         return f"Digital Product: {self.name}, Price: ₹{self.price}, Size: {self.file_size}MB"
 
-
 def checkout(item):
     print(item.get_details())
-
 
 user = User("Hrithwik", "secure123")
 laptop = Product("Laptop", 50000)

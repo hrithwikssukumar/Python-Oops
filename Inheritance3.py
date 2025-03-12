@@ -21,7 +21,6 @@ class SubClass(BaseClass):
     def display(self):
         print(f"Name: {self.name}\nPlace: {self.place}")
         
-# person1 = BaseClass()
 person1 = SubClass()
 person1.set_name("Jacob", "Berlin", "Delta")
 person1.display()
